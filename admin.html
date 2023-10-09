@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - QuickBite Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="admin">
+        <h2>Admin Page</h2>
+        <h3>Menu Management</h3>
+        <form id="menuForm">
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" required>
+            <label for="itemPrice">Item Price:</label>
+            <input type="text" id="itemPrice" required>
+            <button type="submit">Add Item</button>
+        </form>
+        
+        <h3>Promotions</h3>
+        <form id="promoForm">
+            <label for="promoText">Promotion Text:</label>
+            <input type="text" id="promoText" required>
+            <button type="submit">Add Promotion</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 QuickBite Cafe</p>
+    </footer>
+</body>
+</html>
